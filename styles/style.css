@@ -1,3 +1,74 @@
-*{
-    background: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common style-------------------------- */
+.container {
+    padding: 0 25px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1250px;
+
+}
+
+/* header style start------------------------ */
+.products-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+
+.products-nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    color: black;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+   gap: 133px;
+}
+.text-title{
+    font-weight: 700;
+font-size: 52px;
+color: #3A3A3A;
+
+}
+.text-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+.primary-btn>a{
+    text-decoration: none;
+    color: #fff;
+}
+.primary-btn{
+    padding: 15px;
+    font-weight: 700;
+font-size: 16px;
+background: #E02C6D;
+border: 0;
+border-radius: 41px;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    
 }
