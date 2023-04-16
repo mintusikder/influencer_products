@@ -38,37 +38,51 @@ ul li {
 ul a {
     color: black;
 }
-.header-container{
+
+.header-container {
     display: flex;
     align-items: center;
-   gap: 133px;
-}
-.text-title{
-    font-weight: 700;
-font-size: 52px;
-color: #3A3A3A;
 
 }
-.text-description{
+
+.text-title {
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+
+}
+
+.text-description {
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
-    margin: 16px 0;
+
 }
-.primary-btn>a{
+
+.primary-btn>a {
     text-decoration: none;
     color: #fff;
 }
-.primary-btn{
+
+.primary-btn {
     padding: 15px;
     font-weight: 700;
-font-size: 16px;
-background: #E02C6D;
-border: 0;
-border-radius: 41px;
+    font-size: 16px;
+    background: #E02C6D;
+    border: 0;
+    border-radius: 41px;
 }
-.logo-container{
+
+.logo-container {
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
-    
+}
+
+.logo-container>img {
+    margin-left: 50px;
+}
+
+.popular-collection-title {
+    text-align: center;
 }
